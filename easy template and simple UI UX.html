@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayApi</title>
+    <link rel="stylesheet" href="tailwind.config.js">
+</head>
+<body>
+    
+    <section class="container grid grid-cols-12  gap-6">
+        <div class="xl:col-span-6 sm:col-span-12 sm:ml-[-50px] md:ml-[1px] sm:mx-auto xl:mt-[120px]">
+            <div class="bg-[#2E3F4D] rounded-[8px]"></div>
+            <div class="shadow-indigo-500/40 bg-MirageBlue w-[445px] h-[284px] rounded-[8px]"></div>
+        </div>
+        <div class="xl:col-span-6 sm:col-span-12 mt-[150px] ">
+            <p class="text-SanJuanBlue xl:text-left sm:text-center mb-[24px] text-[48px] font-regular leading-[56px]">
+                Easy to implement
+            </p>
+            <p class="text-LightSanJuanBlue text-[15px] xl:text-left sm:text-center font-regular leading-[28px]">
+                Our API comes with just a few lines of code. You’ll be up and running in no time. We built our documentation page to integrate payments functionality with ease.
+            </p>
+        </div>
+        <div class='xl:col-span-6 sm:col-span-12 mt-[332px]'>
+            <p class="mb-[24px] text-SanJuanBlue xl:text-left sm:text-center text-[48px] leading-[56px]">Simple UI & UX</p>
+            <p class="text-LightSanJuanBlue xl:text-left sm:text-center">Our pre-built form is easy to integrate in your app or website’s checkout flow and designed to optimize conversion. </p>
+        </div>
+        <div class="xl:col-span-6 sm:col-span-12 flex gap-[70px] mt-[200px]">
+            <div class="bg-SanJuanBlue h-[432px] w-[864px]"></div>
+            <div class='bg-SanJuanBlue h-[432px] w-[864px]'></div>     
+   </div>
+    </section>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+                container: {
+                    container : true,
+                    padding: "165px",
+                    maxWidth: "1184px",
+                },
+              colors: {
+                'DarkPink': '#ba4270',
+                'LinkWaterWhite' : '#fbfcfe',
+                'SanJuanBlue' : '#36536b',
+                'MirageBlue' : '#1b262f',
+                'OrqaTomon' : '#EDF3F8',
+                'CharmPink' : '#da6d97',
+                'LightSanJuanBlue' :'#6c8294',
+              }
+            }
+          }
+        }
+      </script>
+</body>
+</html>
